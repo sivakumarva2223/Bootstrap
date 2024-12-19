@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+#navbar{
+    box-shadow: 3px 5px 10px black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+     
+    button{
+        border-radius: 15px;
+        background:  rgb(0, 0, 255);
+        width: 100px;
+    }
+}
+#brand{
+    color:rgb(0, 0, 255);
+    font-family: "Eagle Lake", serif;
+    font-weight: bolder;
+}
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent;
+    color: white;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid   rgb(0, 0, 255);
+}
+
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 100px;
+        letter-spacing: 3px;
+        color:rgb(16, 16, 73);
+        font-family: "Eagle Lake", serif;
+        text-shadow: 0px 1px 0px #ccc,
+        0px 2px 0px #ccc,
+        0px 3px 0px #ccc,
+        0px 4px 0px #ccc,
+        0px 5px 0px #ccc,
+        0px 6px 0px #ccc;
+    }
+    h2{
+        font-family: "Eagle Lake", serif;
+        color: rgb(16, 16, 73);
+        font-size: 50px;
+    }
+   background: url(https://img.freepik.com/premium-photo/vivid-ice-cream-background-illustration-ai-generativexa_115919-15401.jpg?w=900);
+   background-size: cover;
+   background-position:center ;
+
+   button{
+    background:  rgb(41, 12, 122);
+    width: 100px;
+    color: white;
+}
+}
+/* #srch{
+   
+    border-bottom:solid  rgb(16, 16, 73);
+   
+    
+} */
+#srch::placeholder{
+    color:rgb(41, 12, 122);
+}
+   /*about*/
+   #about{
+    width: 100%;
+    min-height: 100vh;
+    background-color: orange;
+   }
+   /*Products*/
+   #Product{
+    width: 100px;
+    min-height: 100vh;
+   }
+   .card{
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px;            
+   }
+.card:hover{
+ box-shadow: 15px 20px 20px rgba(0,0,0,.3)  inset,
+                4px 4px 10px white;
+}
+#pic{
+width:500px;
+height:350px;
+}
+
+
+/* cart */
+.cart{
+    position: fixed;
+    top:10px;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    background-color:rgb(49, 47, 47);
+    transition: 1.5s;
+    /* display: none; */
+
+}
+.cart h3{
+    text-align: center;
+    color:white;
+    margin-top: 55px;
+}
+
+
+#cart-close{
+    position: relative;
+    top: 77%;
+    left: 75%;
+}
