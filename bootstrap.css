@@ -110,7 +110,7 @@ height:350px;
     height: 100vh;
     background-color:rgb(49, 47, 47);
     transition: 1.5s;
-    /* display: none; */
+    display: none;
 
 }
 .cart h3{
